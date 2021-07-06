@@ -1,0 +1,48 @@
+<p *ngIf="!contact">Error while loading contact</p>
+<div *ngIf="contact" class="container-fluid form-group form-new">
+  <div class="row">
+    <div *ngIf="errorMessage" class="alert alert-danger" role="alert">Error: {{ errorMessage }}</div>
+    <div class="col-lg-2 visible-lg"></div>
+    <div class="col-xs-12 col-lg-8" style="background:#eee;">
+      <h4 class="text-center">Edit Contact</h4>
+      <form #form="ngForm" (submit)="onSubmit(form)" novalidate>
+        <div class="form-group">
+          <label>Name</label>
+          <input #name="ngModel" type="text" class="form-control" name="name" placeholder="Title" required
+                 [ngModel]="contact.name"
+                 (ngModelChange)="contact.name=$event">
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-lg-6">
+              <label>Date Of Birth</label>
+              <input name="dateOfBirth" class="form-control" data-width="100%" required readonly
+                      [(ngModel)]="contact.dateOfBirth"
+                      (ngModelChange)="contact.dateOfBirth=$event">
+            </div>
+            <div class="col-lg-6">
+              <label>Married</label>
+              <select name="married" class="form-control" data-width="100%"
+                      [(ngModel)]="contact.married"
+                      (ngModelChange)="contact.married=$event">
+                <option [ngValue]="false">No</option>
+                <option [ngValue]="true">Yes</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Salary</label>
+          <input #salary="ngModel" type="number" class="form-control" name="salary" required
+                 [ngModel]="contact.salary"
+                 (ngModelChange)="contact.salary=$event">
+        </div>
+        <div class="text-center form-group">
+          <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Update</button>
+          <a [routerLink]="['/contacts/list']" class="btn btn-primary">Cancel</a>
+        </div>
+      </form>
+    </div>
+    <div class="col-lg-2 visible-lg"></div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="container-fluid form-group form-new">
+  <div *ngIf="errorMessage" class="alert alert-danger" role="alert">Error: {{ errorMessage }}</div>
+  <div class="row">
+    <div class="col-md-2 visible-lg"></div>
+    <div class="col-xs-12 col-md-8 py-2" style="background:#eee;">
+      <h4 class="text-center">Upload Contact from CSV</h4><br/>
+      <form #form="ngForm">
+        <div class="form-group text-center row">
+          <span class="upload" *ngIf="progress > 0">{{progress}}%</span>
+          <span class="upload" *ngIf="message">{{message}}</span>
+        </div>
+        <div class="text-center form-group">
+          <input type="file" accept=".csv" #file placeholder="Choose file" (change)="uploadFile(file.files)" style="display:none;">
+          <button type="button" class="btn btn-success" (click)="file.click()">Upload File</button>
+          <a [routerLink]="['/contacts/list']" class="btn btn-primary">Back to contacts</a>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-2 visible-lg"></div>
+  </div>
+</div>

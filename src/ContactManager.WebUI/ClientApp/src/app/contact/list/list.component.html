@@ -1,0 +1,50 @@
+<h1 class="text-center">Contacts</h1>
+<div class="header-actions d-flex">
+  <div class="col-md-6">
+    <input type="text" [(ngModel)]='listFilter' class="form-control" placeholder="Search for contact...">
+  </div>
+  <div class="col-md-4">
+    <ul class='nav navbar-nav contacts-header-actions d-flex flex-row'>
+      <li>
+        <select [(ngModel)]='filter1' data-title="Married" data-selected-text-format="static" class="selectpicker form-control" data-width="100%">
+          <option value='0'>No</option>
+          <option value='1'>Yes</option>
+          <option data-divider="true"></option>
+          <option value='-1' selected>All</option>
+        </select>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-2 text-right">
+    <a [routerLink]="['/contacts/create']" class="btn btn-primary">Upload New CSV</a>
+  </div>
+</div>
+<div *ngIf="!contacts || contacts.length == 0">No contacts found.</div>
+<table class='table table-striped' *ngIf='contacts && contacts.length > 0'>
+  <thead>
+  <tr>
+    <th class="d-none">Id</th>
+    <th>Name</th>
+    <th>Date Of Birth</th>
+    <th>Married</th>
+    <th>Salary</th>
+    <th>[Delete]</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor='let contact of contacts | contactFilter:listFilter | contactFilterByStatus:filter1'>
+    <td class="d-none">{{ contact.id }}</td>
+    <td>
+      <a [routerLink]="['/contacts/edit', contact.id]">{{contact.name}}</a>
+    </td>
+    <td>{{ contact.dateOfBirth | date:'yyyy-MM-dd'}}</td>
+    <td>{{ marriedToText(contact.married) }}</td>
+    <td>{{ contact.salary }}$</td>
+    <td>
+      <a (click)="deleteContact(contact)" role="button" class="action-button">
+        <i class="fas fa-times text-danger"></i>
+      </a>
+    </td>
+  </tr>
+  </tbody>
+</table>

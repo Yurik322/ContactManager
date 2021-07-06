@@ -1,0 +1,12 @@
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\obj\Debug\netcoreapp3.1\ContactManager.BLL.csproj.AssemblyReference.cache
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\obj\Debug\netcoreapp3.1\ContactManager.BLL.AssemblyInfoInputs.cache
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\obj\Debug\netcoreapp3.1\ContactManager.BLL.AssemblyInfo.cs
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\obj\Debug\netcoreapp3.1\ContactManager.BLL.csproj.CoreCompileInputs.cache
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\bin\Debug\netcoreapp3.1\ContactManager.BLL.deps.json
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\bin\Debug\netcoreapp3.1\ContactManager.BLL.dll
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\bin\Debug\netcoreapp3.1\ContactManager.BLL.pdb
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\bin\Debug\netcoreapp3.1\ContactManager.DAL.dll
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\bin\Debug\netcoreapp3.1\ContactManager.DAL.pdb
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\obj\Debug\netcoreapp3.1\ContactManager.BLL.csproj.CopyComplete
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\obj\Debug\netcoreapp3.1\ContactManager.BLL.dll
+C:\Contact Manager\ContactManager\src\ContactManager.BLL\obj\Debug\netcoreapp3.1\ContactManager.BLL.pdb

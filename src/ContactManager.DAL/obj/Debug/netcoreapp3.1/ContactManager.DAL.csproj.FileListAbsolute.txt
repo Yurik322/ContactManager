@@ -1,0 +1,9 @@
+C:\Contact Manager\ContactManager\src\ContactManager.DAL\obj\Debug\netcoreapp3.1\ContactManager.DAL.csproj.AssemblyReference.cache
+C:\Contact Manager\ContactManager\src\ContactManager.DAL\obj\Debug\netcoreapp3.1\ContactManager.DAL.AssemblyInfoInputs.cache
+C:\Contact Manager\ContactManager\src\ContactManager.DAL\obj\Debug\netcoreapp3.1\ContactManager.DAL.AssemblyInfo.cs
+C:\Contact Manager\ContactManager\src\ContactManager.DAL\obj\Debug\netcoreapp3.1\ContactManager.DAL.csproj.CoreCompileInputs.cache
+C:\Contact Manager\ContactManager\src\ContactManager.DAL\bin\Debug\netcoreapp3.1\ContactManager.DAL.deps.json
+C:\Contact Manager\ContactManager\src\ContactManager.DAL\bin\Debug\netcoreapp3.1\ContactManager.DAL.dll
+C:\Contact Manager\ContactManager\src\ContactManager.DAL\bin\Debug\netcoreapp3.1\ContactManager.DAL.pdb
+C:\Contact Manager\ContactManager\src\ContactManager.DAL\obj\Debug\netcoreapp3.1\ContactManager.DAL.dll
+C:\Contact Manager\ContactManager\src\ContactManager.DAL\obj\Debug\netcoreapp3.1\ContactManager.DAL.pdb

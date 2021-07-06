@@ -1,0 +1,19 @@
+.form-group button {
+  margin-right: 20px;
+}
+
+.error-message {
+  color: red;
+  text-align: right;
+}
+
+.contact-saved {
+  margin-bottom: 50px;
+}
+
+.upload {
+  font-weight:bold;
+  color:#28a745;
+  margin-left: 15px;
+  line-height: 36px;
+}

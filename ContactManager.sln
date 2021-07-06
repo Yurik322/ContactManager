@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2700DCAD-43DB-41F1-8DC9-0F7F55038774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager.WebUI", "src\ContactManager.WebUI\ContactManager.WebUI.csproj", "{FA1447E1-4BD2-44EE-A0F6-69F2A3362B28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager.DAL", "src\ContactManager.DAL\ContactManager.DAL.csproj", "{5FBCF409-04FD-4C5E-BC2C-EE7C7E10EC6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager.BLL", "src\ContactManager.BLL\ContactManager.BLL.csproj", "{AB3B9F6F-CB9F-4C7B-8E51-C6AFC9B9F4F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA1447E1-4BD2-44EE-A0F6-69F2A3362B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1447E1-4BD2-44EE-A0F6-69F2A3362B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1447E1-4BD2-44EE-A0F6-69F2A3362B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1447E1-4BD2-44EE-A0F6-69F2A3362B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FBCF409-04FD-4C5E-BC2C-EE7C7E10EC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBCF409-04FD-4C5E-BC2C-EE7C7E10EC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBCF409-04FD-4C5E-BC2C-EE7C7E10EC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBCF409-04FD-4C5E-BC2C-EE7C7E10EC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3B9F6F-CB9F-4C7B-8E51-C6AFC9B9F4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3B9F6F-CB9F-4C7B-8E51-C6AFC9B9F4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3B9F6F-CB9F-4C7B-8E51-C6AFC9B9F4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3B9F6F-CB9F-4C7B-8E51-C6AFC9B9F4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA1447E1-4BD2-44EE-A0F6-69F2A3362B28} = {2700DCAD-43DB-41F1-8DC9-0F7F55038774}
+		{5FBCF409-04FD-4C5E-BC2C-EE7C7E10EC6A} = {2700DCAD-43DB-41F1-8DC9-0F7F55038774}
+		{AB3B9F6F-CB9F-4C7B-8E51-C6AFC9B9F4F1} = {2700DCAD-43DB-41F1-8DC9-0F7F55038774}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {636CF58E-E5AE-46A2-9043-A510EABBC927}
+	EndGlobalSection
+EndGlobal
